@@ -177,8 +177,6 @@ modifier.sassy.name=時髦
 modifier.sassy.desc=§o真美...§r\n增加玩家的暴擊。
 modifier.ignoble.name=卑鄙
 modifier.ignoble.desc=§o降到最低底線§r\n當受到傷害時，便會積攢卑鄙值。當這個效果被啟用時，你可以潛行進行攻擊，這些情緒便會宣洩出來。
-modifier.dprk.name=意志堅定
-modifier.dprk.desc=§o災難將至大洋彼岸。 §r\n每當進攻或者防守，NO.1都會進行爆炸。這種方式類似爬行者的爆炸，你可以用這種方式對待你的對手。
 modifier.getlucky.name=豪運
 modifier.getlucky.desc=§o如鳳凰一樣的傳說...§r\n按‘設置傳送門’鍵（默認‘N’）設置您指向方塊的虛擬門戶。如果你正處在死亡的邊緣，你有 %d 一堆的寶石，且有足夠的空間。那麼通過消耗寶石，你將被傳送到傳送門，期間你不能放手(工具必須在你手上)。
 modifier.vindictive.name=報復
@@ -257,8 +255,6 @@ key.plustic_toggle_tool.desc=更換工具模式
 
 # ENTITIES
 
-entity.plustic.SupremeLeader.name=NO.1
-entity.SupremeLeader.name=NO.1
 
 # GUI
 

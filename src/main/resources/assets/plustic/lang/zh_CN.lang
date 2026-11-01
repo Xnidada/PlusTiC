@@ -183,8 +183,6 @@ modifier.sassy.name=无礼
 modifier.sassy.desc=§o无理取闹...§r\n对玩家和boss暴击。
 modifier.ignoble.name=卑鄙
 modifier.ignoble.desc=§o降到最低底线§r\n当受到伤害时，便会积攒卑鄙值。当这个效果被启用时，你可以潜行进行攻击，这些情绪便会宣泄出来。
-modifier.dprk.name=意志坚定
-modifier.dprk.desc=§o灾难将至大洋彼岸§r\n每次攻击或者格挡时会生成NO.1，它会像爬行者那样爆炸以进攻目标。
 modifier.getlucky.name=豪运
 modifier.getlucky.desc=§o如凤凰一样的传说...§r\n按"设置传送门"键（默认为"N"）在你指向的方块上设置一个虚拟的传送门。当你即将死亡时，如果你有 %d 个凤凰宝石，且传送门上方有足够的空间，则会消耗宝石将你传送到传送门处，使你获救。（工具必须拿在手中）。
 modifier.vindictive.name=报复
@@ -265,8 +263,6 @@ key.plustic_toggle_tool.desc=切换工具模式
 
 # ENTITIES
 
-entity.plustic.SupremeLeader.name=NO.1
-entity.SupremeLeader.name=NO.1
 
 # GUI
 

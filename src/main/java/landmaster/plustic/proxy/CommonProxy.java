@@ -2,7 +2,6 @@ package landmaster.plustic.proxy;
 
 import landmaster.plustic.*;
 import landmaster.plustic.api.*;
-import landmaster.plustic.entity.*;
 import landmaster.plustic.util.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.item.*;
@@ -43,7 +42,6 @@ public class CommonProxy {
 	}
 	
 	public void initEntities() {
-		EntityRegistry.registerModEntity(new ResourceLocation(ModInfo.MODID, "supremeleader"), EntitySupremeLeader.class, "SupremeLeader", 0, PlusTiC.INSTANCE, 96, 2, true, 0xFF0000, 0x0000FF);
 	}
 	
 	public void initToolGuis() {

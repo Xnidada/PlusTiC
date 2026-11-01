@@ -5,8 +5,6 @@ import java.util.*;
 import javax.annotation.*;
 import landmaster.plustic.api.*;
 import landmaster.plustic.api.Sounds;
-import landmaster.plustic.entity.*;
-import landmaster.plustic.entity.render.*;
 import landmaster.plustic.modules.*;
 import landmaster.plustic.traits.*;
 import landmaster.plustic.util.*;
@@ -114,7 +112,6 @@ public class ClientProxy extends CommonProxy {
 	@Override
 	public void initEntities() {
 		super.initEntities();
-		RenderingRegistry.registerEntityRenderingHandler(EntitySupremeLeader.class, RenderSupremeLeader::new);
 	}
 	
 	@Override

@@ -38,10 +38,10 @@ public class ImASuperstar extends AbstractTrait {
 	
 	@Override
 	public float damage(ItemStack tool, EntityLivingBase player, EntityLivingBase target, float damage, float newDamage, boolean isCritical) {
-		if (!player.world.isRemote && player instanceof EntityPlayer && random.nextFloat() < 0.25
+		if (!player.world.isRemote && player instanceof EntityPlayer && random.nextFloat() < 0.15
 				&& ResearchManager.getProgress((EntityPlayer)player, Side.SERVER).getAttunedConstellation()
 				== Constellations.discidia) {
-			newDamage *= 2.5;
+			newDamage *= 2;
 		}
 		return super.damage(tool, player, target, damage, newDamage, isCritical);
 	}
@@ -51,7 +51,7 @@ public class ImASuperstar extends AbstractTrait {
 		if (!event.getEntity().world.isRemote
 				&& ResearchManager.getProgress(event.getEntityPlayer(), Side.SERVER).getAttunedConstellation()
 				== Constellations.evorsio) {
-			event.setNewSpeed(event.getNewSpeed() * 1.75f);
+			event.setNewSpeed(event.getNewSpeed() * 1.5f);
 		}
 	}
 	
@@ -69,7 +69,7 @@ public class ImASuperstar extends AbstractTrait {
 				|| ResearchManager.getProgress((EntityPlayer)event.getEntity(), Side.SERVER).getAttunedConstellation()
 				!= Constellations.armara)
 			return;
-		event.setAmount(event.getAmount() * 0.5f);
+		event.setAmount(event.getAmount() * 0.85f);
 		ToolHelper.damageTool(tool, 1, event.getEntityLiving());
 	}
 }

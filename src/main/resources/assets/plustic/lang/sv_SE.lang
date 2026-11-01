@@ -259,8 +259,6 @@ modifier.sassy.name=Kaxig
 modifier.sassy.desc=§oVilken kaxighet...§r\nUtdela kritiska slag mot spelare och bossar.
 modifier.ignoble.name=Oädel
 modifier.ignoble.desc=§oMot ett nytt bottenläge§r\nNär man tar skada början man hysa känslor av oädel svartsjuka när anfallaren dödas. När detta attribut aktiveras kommer man ge utlopp åt dessa känslor när man attackerar medan man smyger.
-modifier.dprk.name=Folkrepubliken Korea
-modifier.dprk.desc=§oNär dina missiler exploderar direkt efter avfyrning§r\nNär du attackerar eller blockerar kommer suveräna ledare skapas som exploderar vid motståndaren på samma sätt som en creeper.
 modifier.getlucky.name=Lyckost
 modifier.getlucky.desc=§oSom legenden om fågel fenix...§r\nTryck på tangenten för "Ange portal" (standard är "N") för att skapa en virtuell portal på blocket du tittar på. Om du är nära döden, har %d ädelstenar av phoenixite tillövers och portalen har tillräckligt mycket utrymme ovanför kommer ädelstenarna konsumeras och du skonas genom att teleporteras till den virtuella portalen. (Verktyget måste vara i din hand.)
 modifier.vindictive.name=Hämndtörstig
@@ -362,8 +360,6 @@ key.plustic_mots.desc=Gränssnitt för sfärens musik
 
 # ENTITIES
 
-entity.plustic.SupremeLeader.name=Suverän ledare
-entity.SupremeLeader.name=Suverän ledare
 
 # GUI
 

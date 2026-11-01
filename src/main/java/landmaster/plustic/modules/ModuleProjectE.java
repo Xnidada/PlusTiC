@@ -48,7 +48,6 @@ public class ModuleProjectE implements IModule {
 				
 				final ItemStack redMatterStack = new ItemStack(matter, 1, 1);
 				
-				redMatter.addTrait(DPRK.dprk);
 				redMatter.addItem(redMatterStack, 1, Material.VALUE_Ingot);
 				redMatter.setCraftable(true);
 				redMatter.setRepresentativeItem(redMatterStack);
