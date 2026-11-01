@@ -174,20 +174,10 @@ modifier.light.name=Light Metal
 modifier.light.desc=§oLow-weight§r\nAttack and mining speed increases.
 modifier.explosive.name=Explosive
 modifier.explosive.desc=§oKa-boom!§r\nAn explosion is created on each hit.
-modifier.global.name=Global Traveler
-modifier.global.desc=§oAround the world... and back§r\nShift-right-click a block in order for items from broken blocks and killed entities to get transported in there if it is an inventory.
 modifier.thundering.name=Thundering
 modifier.thundering.desc=§oRise, Thor!§r\nSummon a thunderbolt on impact.
 modifier.divineshield.name=Divine Shield
 modifier.divineshield.desc=§oOf the guardians, by the guardians, and for the guardians§r\nWhile this tool is in your hand, you are granted fire resistance. Also, damage is reduced, but at a durability cost.
-modifier.portly.name=Portly Gentleman
-modifier.portly.desc=§oTesting nuclear bombs off the Korean coast, oh yeah!§r\nShift-right-click an entity to capture it (costs durability based on entity health). Press the "release entity" key (default "0") in order to release it.
-modifier.nickoftime.name=Nick of Time
-modifier.nickoftime.desc=§oPhew!§r\nPress the "set portal" key (default "N") to set a virtual portal on the block you are pointing at (shift for armor; do not shift for tools). If you are on the brink of death, you have %d ender pearls to spare, and the portal has enough space above, then the pearls are consumed, you are teleported to the virtual portal, and you are spared. (The tool must be in your hand.)
-modifier.blindbandit.name=Blind Bandit
-modifier.blindbandit.desc=§oPulling a ... someone.§r\nA mob called the "Blind Bandit" will sometimes be summoned for a limited time after you attack or are attacked. She will attack hostile mobs, and will also attack those who dare attack her (except you), piercing armor on mobs.
-modifier.brownmagic.name=Brown Magic
-modifier.brownmagic.desc=§oYou're weird.§r\nPress the "set portal" key (default "N") to set a virtual portal on the block you are pointing at. By default, press "Y" to teleport there (if there is enough space).
 modifier.rudeawakening.name=Rude Awakening
 modifier.rudeawakening.desc=§oThe hydra grovels before me...§r\nDamage pierces armor (mobs only).
 modifier.mirabile.name=Mirabile Visu
@@ -302,14 +292,10 @@ tile.centrifuge.core.name=Centrifuge Core
 
 # CHAT MESSAGES
 
-msg.plustic.globalmodifier.set=Linked inventory at [x=%d, y=%d, z=%d] and dimension %d
-msg.plustic.portlymodifier.set=Captured entity %s
-msg.plustic.portlymodifier.unset=Released entity %s
 msg.plustic.portal.set=Set teleportation point for tool to be [x=%d, y=%d, z=%d] in dimension %d
 msg.plustic.portal.armor.set=Set teleportation point for armor to be [x=%d, y=%d, z=%d] in dimension %d
 msg.plustic.nickmodifier.use=Just in the nick of time!
 msg.plustic.getlucky.use=I'm up all night to get lucky!
-msg.plustic.brownmagic.use=You're kidding.
 msg.plustic.hailhydra.use=If a §mHydra§r §nKelly§r head is cut off, two more shall take its place!
 msg.plustic.tool_mode=Tool mode: %s
 msg.plustic.starfishy.use=Seems starfishy to me.
@@ -321,8 +307,6 @@ mode.laser_gun.tool=§4Block Smelt
 
 # TOOLTIPS
 
-tooltip.plustic.globalmodifier.info=Linked inventory at [x=%d, y=%d, z=%d] and dimension %d
-tooltip.plustic.portlymodifier.info=Entity: %s
 tooltip.plustic.ignoblemodifier.info=Ignobility: §1%f
 tooltip.plustic.portal.info=Teleportation point: [x=%d, y=%d, z=%d]; dimension %d
 tooltip.plustic.toggle.info=Click to toggle
@@ -338,18 +322,14 @@ meter.plustic.katana=COMBO LEVEL: %s
 # CONTROLS
 
 key.categories.plustic=PlusTiC
-key.plustic_release_entity.desc=Release Entity
 key.plustic_toggle_gui.desc=Toggle GUI
 key.plustic_set_portal.desc=Set Portal
-key.plustic_brown_magic.desc=Activate Brown Magic
 key.plustic_toggle_tool.desc=Change Tool Mode
 key.plustic_fruit_salad.desc=Fruit Salad GUI
 key.plustic_mots.desc=Music Of The Spheres GUI
 
 # ENTITIES
 
-entity.plustic.BlindBandit.name=Blind Bandit
-entity.BlindBandit.name=Blind Bandit
 entity.plustic.SupremeLeader.name=Supreme Leader
 entity.SupremeLeader.name=Supreme Leader
 

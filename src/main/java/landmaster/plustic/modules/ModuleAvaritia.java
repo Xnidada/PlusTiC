@@ -16,8 +16,6 @@ public class ModuleAvaritia implements IModule {
 	public void init() {
 		if (Config.avaritia && Loader.isModLoaded("avaritia")) {
 			Material infinity = new Material("infinity_avaritia_plustic", TextFormatting.LIGHT_PURPLE);
-			infinity.addTrait(Global.global);
-			infinity.addTrait(BrownMagic.brownmagic);
 			infinity.addTrait(Apocalypse.apocalypse);
 			infinity.addItem("ingotInfinity", 1, Material.VALUE_Ingot);
 			infinity.setCraftable(false).setCastable(true);

@@ -82,7 +82,6 @@ public class ModuleLandCraft implements IModule {
 			
 			{
 				Material racheline = mats.get("racheline");
-				racheline.addTrait(BlindBandit.blindbandit);
 				PlusTiC.proxy.setRenderInfo(racheline, 0xA5FFFF, 0xD37DDC, 0xFF00BA);
 				
 				TinkerRegistry.addMaterialStats(racheline,

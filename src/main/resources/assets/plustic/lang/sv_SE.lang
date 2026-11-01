@@ -227,20 +227,10 @@ modifier.light.name=Lättmetall
 modifier.light.desc=§oLättviktare§r\nAttack- och brytningshastigheten ökar.
 modifier.explosive.name=Explosiv
 modifier.explosive.desc=§oKaboom!§r\nEn explosion skapas vid varje träff.
-modifier.global.name=Globetrotter
-modifier.global.desc=§oJorden runt... och tillbaka§r\nShift-högerklicka på ett block för att transportera föremål från trasiga block och dödade entiteter in dit om det är en utrustning.
 modifier.thundering.name=Åskande
 modifier.thundering.desc=§oUppstå, Tor!§r\nFrammanar en blixt vid träff.
 modifier.divineshield.name=Gudomlig sköld
 modifier.divineshield.desc=§oAv väktare, för väktare§r\nNär detta verktyg är i din hand får du eldresistans. Dessutom reduceras skada på bekostnad av hållbarhet.
-modifier.portly.name=Stadig gentleman
-modifier.portly.desc=§oTestar atombomber utanför koreanska kusten.§r\nShift-högerklicka på en entitet för att fånga den (hållbarhetskostnaden baseras på entitetens hälsa). Tryck på tangenten för "Släpp fri entitet" (standard är "0") för att släppa den fri.
-modifier.nickoftime.name=Sista minuten
-modifier.nickoftime.desc=§oPust!§r\nTryck på tangenten för "Ange portal" (standard är "N") för att skapa en virtuell portal på blocket du tittar på (Shift för rustning; använd inte Shift för verktyg). Om du är nära döden, har %d enderpärlor tillövers och portalen har tillräckligt mycket utrymme ovanför kommer pärlorna konsumeras och du skonas genom att teleporteras till den virtuella portalen. (Verktyget måste vara i din hand.)
-modifier.blindbandit.name=Blind bandit
-modifier.blindbandit.desc=§oImiterar... någon.§r\nEn varelse som kallas "Blind bandit" kommer ibland frammanas under en begränsad period när du attackerar eller attackeras. Hon kommer att attackera fientliga varelser och kommer även attackera de som vågar attackera henne (förutom dig). Penetrerar rustningen hos varelser.
-modifier.brownmagic.name=Brun magi
-modifier.brownmagic.desc=§oDu är märklig.§r\nTryck på tangenten för "Ange portal" (standard är "N") för att skapa en virtuell portal på blocket du tittar på. Som standard, tryck på "Y" för att teleportera dit (om det finns tillräckligt mycket rymd).
 modifier.rudeawakening.name=Ohyfsat uppvaknande
 modifier.rudeawakening.desc=§oHydran krälar framför mig...§r\nSkada penetrerar rustning (endast varelser).
 modifier.mirabile.name=Mirabile Visu
@@ -336,14 +326,10 @@ tile.osgloglasblock.name=Osgloglasblock
 
 # CHAT MESSAGES
 
-msg.plustic.globalmodifier.set=Länkade utrustningen vid [x=%d, y=%d, z=%d] och dimensionen %d
-msg.plustic.portlymodifier.set=Fångade entiteten %s
-msg.plustic.portlymodifier.unset=Släppte entiteten %s fri
 msg.plustic.portal.set=Ändrade teleporteringspunkten för verktyget till [x=%d, y=%d, z=%d] i dimensionen %d
 msg.plustic.portal.armor.set=Ändrade teleporteringspunkten för rustningen till [x=%d, y=%d, z=%d] i dimensionen %d
 msg.plustic.nickmodifier.use=Precis i sista sekunden!
 msg.plustic.getlucky.use=Vilken tur!
-msg.plustic.brownmagic.use=Du måste skoja.
 msg.plustic.hailhydra.use=Om §men hydra§r §nKelly§r får sitt huvud avskuret kommer två nya dyka upp istället!
 msg.plustic.tool_mode=Verktygsläge: %s
 msg.plustic.starfishy.use=Underskatta aldrig en sjöstjärna.
@@ -355,8 +341,6 @@ mode.laser_gun.tool=§4Blocksmältning
 
 # TOOLTIPS
 
-tooltip.plustic.globalmodifier.info=Länkade utrustningen vid [x=%d, y=%d, z=%d] och dimensionen %d
-tooltip.plustic.portlymodifier.info=Entitet: %s
 tooltip.plustic.ignoblemodifier.info=Oädelhet: §1%f
 tooltip.plustic.portal.info=Teleporteringspunkt: [x=%d, y=%d, z=%d]; dimension %d
 tooltip.plustic.toggle.info=Klicka för att aktivera/inaktivera
@@ -370,18 +354,14 @@ meter.plustic.katana=KOMBONIVÅ: %d
 # CONTROLS
 
 key.categories.plustic=PlusTiC
-key.plustic_release_entity.desc=Släpp fri entitet
 key.plustic_toggle_gui.desc=Visa/dölj gränssnitt
 key.plustic_set_portal.desc=Ange portal
-key.plustic_brown_magic.desc=Aktivera brun magi
 key.plustic_toggle_tool.desc=Ändra verktygsläge
 key.plustic_fruit_salad.desc=Gränssnitt för fruktsallad
 key.plustic_mots.desc=Gränssnitt för sfärens musik
 
 # ENTITIES
 
-entity.plustic.BlindBandit.name=Blind bandit
-entity.BlindBandit.name=Blind bandit
 entity.plustic.SupremeLeader.name=Suverän ledare
 entity.SupremeLeader.name=Suverän ledare
 

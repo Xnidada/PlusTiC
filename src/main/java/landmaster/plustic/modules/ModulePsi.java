@@ -27,7 +27,6 @@ public class ModulePsi implements IModule {
 		if (Config.psi && (Loader.isModLoaded("Psi") || Loader.isModLoaded("psi"))) {
 			Material psimetal = new Material("psimetal", 0x6D9EFF);
 			psimetal.addTrait(Psicological.psicological);
-			psimetal.addTrait(Global.global);
 			psimetal.addItem("ingotPsi", 1, Material.VALUE_Ingot);
 			psimetal.setCraftable(false).setCastable(true);
 			Utils.setDispItem(psimetal, "ingotPsi");
@@ -48,7 +47,6 @@ public class ModulePsi implements IModule {
 			
 			Material psigem = new Material("psigem", 0x0843A3);
 			psigem.addTrait(Psicological.psicological);
-			psigem.addTrait(Portly.portly);
 			psigem.addItem("gemPsi", 1, Material.VALUE_Ingot);
 			psigem.setCraftable(true);
 			new OreRegisterPromise("gemPsi").thenAccept(psigem::setRepresentativeItem);

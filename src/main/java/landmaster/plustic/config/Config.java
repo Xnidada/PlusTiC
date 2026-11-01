@@ -260,7 +260,7 @@ public class Config extends Configuration {
 		}
 		centrifugeEnergyPerMB = this.getInt("Centrifuge energy per mB", "tweaks", 5, 0, Integer.MAX_VALUE, "Energy consumed by centrifuge per millibucket");
 		
-		for (String traitLoadEntry: this.getStringList("Force load traits", "tweaks", new String[0], "Force-load these traits (as a fully-qualified class name; e.g. landmaster.plustic.traits.Global) without the required mods themselves being loaded")) {
+		for (String traitLoadEntry: this.getStringList("Force load traits", "tweaks", new String[0], "Force-load these traits (as a fully-qualified class name) without the required mods themselves being loaded")) {
 			try {
 				Class.forName(traitLoadEntry);
 			} catch (ClassNotFoundException e) {

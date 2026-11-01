@@ -71,7 +71,6 @@ public class ModuleLandCore implements IModule {
 			
 			{
 				Material landium = mats.get("landium");
-				landium.addTrait(Portly.portly);
 				PlusTiC.proxy.setRenderInfo(landium, 0xFF0077);
 				
 				TinkerRegistry.addMaterialStats(landium,

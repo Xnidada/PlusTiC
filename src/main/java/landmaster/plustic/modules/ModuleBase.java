@@ -64,7 +64,6 @@ public class ModuleBase implements IModule {
 			Utils.ItemMatGroup alumiteGroup = Utils.registerMatGroup("alumite");
 			
 			Material alumite = new Material("alumite", TextFormatting.RED);
-			alumite.addTrait(Global.global);
 			alumite.addItem("ingotAlumite", 1, Material.VALUE_Ingot);
 			alumite.setCraftable(false).setCastable(true);
 			alumite.setRepresentativeItem(alumiteGroup.ingot);
@@ -83,7 +82,6 @@ public class ModuleBase implements IModule {
 			
 			if (TinkerRegistry.getMaterial("nickel") == Material.UNKNOWN) {
 				Material nickel = new Material("nickel", TextFormatting.YELLOW);
-				nickel.addTrait(NickOfTime.nickOfTime, HEAD);
 				nickel.addTrait(magnetic);
 				nickel.addItem("ingotNickel", 1, Material.VALUE_Ingot);
 				nickel.setCraftable(false).setCastable(true);

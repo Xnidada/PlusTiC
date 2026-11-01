@@ -35,7 +35,6 @@ public class ModuleConArm implements IModule {
 						new TrimMaterialStats(10f));
 			});
 			Optional.ofNullable(PlusTiC.materials.get("nickel")).ifPresent(mat -> {
-				ArmorMaterials.addArmorTrait(mat, NickOfTime.nickOfTime, magnetic);
 				TinkerRegistry.addMaterialStats(mat,
 						new CoreMaterialStats(13, 16.5f),
 						new PlatesMaterialStats(1, -0.1f, 1),
@@ -65,7 +64,6 @@ public class ModuleConArm implements IModule {
 						new TrimMaterialStats(10f)); // TODO refine stats
 			});
 			Optional.ofNullable(PlusTiC.materials.get("ruby")).ifPresent(mat -> {
-				ArmorMaterials.addArmorTrait(mat, HaoransCult.haoranscult);
 				TinkerRegistry.addMaterialStats(mat,
 						new CoreMaterialStats(14, 20),
 						new PlatesMaterialStats(1, 7, 2.2f),

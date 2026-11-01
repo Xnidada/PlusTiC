@@ -40,7 +40,6 @@ public class ModuleGalacticraft implements IModule {
 
 				desh.addTrait(alien);
 				desh.addTrait(enderference);
-				desh.addTrait(BrownMagic.brownmagic);
 				
 				titanium.addTrait(Light.light);
 				titanium.addTrait(Anticorrosion.anticorrosion, HEAD);

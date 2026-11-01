@@ -31,7 +31,6 @@ public class ModuleAppEng2 implements IModule {
 			PlusTiC.materials.put("certusQuartz", certusQuartz);
 			
 			Material fluixCrystal = new Material("fluixCrystal_plustic", 0x883D0099);
-			fluixCrystal.addTrait(Portly.portly);
 			fluixCrystal.setCraftable(true);
 			new OreRegisterPromise("crystalFluix")
 			.thenAccept(crystal -> {

@@ -93,9 +93,7 @@ public class ModuleMekanism implements IModule {
 				Utils.ItemMatGroup osgloglasGroup = Utils.registerMatGroup("osgloglas");
 				
 				Material osgloglas = new Material("osgloglas", 0x72FF68);
-				osgloglas.addTrait(BrownMagic.brownmagic);
 				osgloglas.addTrait(Sassy.sassy);
-				osgloglas.addTrait(Global.global);
 				osgloglas.addItem("ingotOsgloglas", 1, Material.VALUE_Ingot);
 				osgloglas.setCraftable(false).setCastable(true);
 				osgloglas.setRepresentativeItem(osgloglasGroup.ingot);

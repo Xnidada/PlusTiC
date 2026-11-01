@@ -40,9 +40,6 @@ public class ModuleDraconicEvolution implements IModule {
 			PlusTiC.materials.put("chaotic_core", chaotic);
 			
 			final CompletableFuture<?> draconicFut = regFut.thenRun(() -> {
-				wyvern.addTrait(BrownMagic.brownmagic, HEAD);
-				wyvern.addTrait(BlindBandit.blindbandit, HEAD);
-				wyvern.addTrait(Portly.portly);
 				wyvern.addItem(wyvern_core, 1, Material.VALUE_Ingot);
 				wyvern.setCraftable(true);
 				wyvern.setRepresentativeItem(wyvern_core);
@@ -53,10 +50,7 @@ public class ModuleDraconicEvolution implements IModule {
 				TinkerRegistry.addMaterialStats(wyvern, new BowMaterialStats(1.6f, 2, 11));
 				
 				awakened.addTrait(RudeAwakening.rudeawakening, HEAD);
-				awakened.addTrait(BrownMagic.brownmagic, HEAD);
-				awakened.addTrait(BlindBandit.blindbandit);
 				awakened.addTrait(Apocalypse.apocalypse);
-				awakened.addTrait(Global.global);
 				awakened.addItem(awakened_core, 1, Material.VALUE_Ingot);
 				awakened.setCraftable(true);
 				awakened.setRepresentativeItem(awakened_core);

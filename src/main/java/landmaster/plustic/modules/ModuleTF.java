@@ -57,7 +57,6 @@ public class ModuleTF implements IModule {
 			PlusTiC.materials.put("signalum", signalum);
 			
 			Material platinum = new Material("platinum_plustic", TextFormatting.BLUE);
-			platinum.addTrait(Global.global, HEAD);
 			platinum.addTrait(Heavy.heavy);
 			platinum.addTrait(Anticorrosion.anticorrosion);
 			platinum.addItem("ingotPlatinum", 1, Material.VALUE_Ingot);
@@ -75,8 +74,6 @@ public class ModuleTF implements IModule {
 			PlusTiC.materials.put("platinum", platinum);
 			
 			Material enderium = new Material("enderium_plustic", TextFormatting.DARK_GREEN);
-			enderium.addTrait(Portly.portly, HEAD);
-			enderium.addTrait(Global.global);
 			enderium.addTrait(enderference);
 			enderium.addTrait(endspeed, PROJECTILE);
 			enderium.addTrait(endspeed, SHAFT);

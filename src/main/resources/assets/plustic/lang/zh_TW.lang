@@ -145,20 +145,10 @@ modifier.light.name=輕金屬
 modifier.light.desc=§o減低-重量§r\n增加採礦及攻擊速度。
 modifier.explosive.name=易爆性
 modifier.explosive.desc=§oKa-隆隆聲！§r\n每次擊中都會產生爆炸。
-modifier.global.name=環球旅行者
-modifier.global.desc=§o全世界... 往返§r\nShift-右擊一個方塊以便獲取被擊殺實體的資料如果實體存在那麼將在那裡被傳輸。
 modifier.thundering.name=雷鳴
 modifier.thundering.desc=§o上升，雷神！§r\n召喚雷電。
 modifier.divineshield.name=聖盾
 modifier.divineshield.desc=§o指被監護人，被被監護人的監護人，守護§r\n當這個工具在你手中時，你將被賦予抗火效果。此外，損害減少，但耐久也會隨之減低。
-modifier.portly.name=憨厚的紳士
-modifier.portly.desc=§o測試朝鮮海岸的核武器，噢耶!§r\n按住 Shift 右擊一個實體來捕獲它(基於實體的生命值來決定消耗的耐久)。按"釋放實體"鍵位(默認為"0")釋放它。
-modifier.nickoftime.name=千鈞一發
-modifier.nickoftime.desc=§o唷！§r\n按"設置傳送門"鍵位(默認‘N)設置您指向方塊的虛擬門戶.如果你正處在死亡的邊緣，你擁有8顆末影珍珠與門戶備用，那麼消耗珍珠，你將被傳送到虛擬門戶，期間你不能放手(工具必須在你手上)。
-modifier.blindbandit.name=盲匪
-modifier.blindbandit.desc=§o呀...有人。§r\n一個被稱為'盲匪'的怪物有時也會在你受到攻擊或者受到攻擊後在有限的時間內被召喚出來，它會攻擊其他敵對怪物，也會攻擊那些膽大攻擊它的人(除了你)，刺穿怪物的裝甲。
-modifier.brownmagic.name=布朗魔術
-modifier.brownmagic.desc=§o你真奇怪。§r\n按"設置門戶"鍵位(默認‘N’)設置你指向方塊的虛擬門戶。默認情況下，按"Y"傳送到那裡(需要有足夠的空間)。
 modifier.rudeawakening.name=驚醒
 modifier.rudeawakening.desc=§o九頭蛇跪倒在我...§r\n穿透目標護甲(僅怪物)。
 modifier.mirabile.name=光怪陸離
@@ -234,13 +224,9 @@ tile.osgloglasblock.name=Osgloglas磚
 
 # CHAT MESSAGES
 
-msg.plustic.globalmodifier.set=連接傳送點 [x=%d, y=%d, z=%d] 在維度 %d
-msg.plustic.portlymodifier.set=捕獲實體 %s
-msg.plustic.portlymodifier.unset=釋放實體 %s
 msg.plustic.portal.set=設置傳送點 [x=%d, y=%d, z=%d] 在維度 %d 中。
 msg.plustic.nickmodifier.use=在千鈞一發之際!
 msg.plustic.getlucky.use=我徹夜不眠就為了成為一個辛運兒！
-msg.plustic.brownmagic.use=你在開玩笑。
 msg.plustic.hailhydra.use=如果一個§m九頭蛇§r §n徽章§r被破壞,另外兩個將取代它的位置!
 msg.plustic.tool_mode=工具模式: %s
 msg.plustic.starfishy.use=似乎海星守候著你。
@@ -252,8 +238,6 @@ mode.laser_gun.tool=§4熔煉
 
 # TOOLTIPS
 
-tooltip.plustic.globalmodifier.info=連接傳送點 [x=%d, y=%d, z=%d] 在維度%d
-tooltip.plustic.portlymodifier.info=實體: %s
 tooltip.plustic.ignoblemodifier.info=卑鄙值: §1%f
 tooltip.plustic.portal.info=傳送點: [x=%d, y=%d, z=%d]; 維度 %d
 tooltip.plustic.toggle.info=點擊切換
@@ -267,16 +251,12 @@ meter.plustic.katana=組合水平: %d
 # CONTROLS
 
 key.categories.plustic=匠魂擴充
-key.plustic_release_entity.desc=釋放實體
 key.plustic_toggle_gui.desc=切換界面
 key.plustic_set_portal.desc=設置傳送門
-key.plustic_brown_magic.desc=激活布朗魔術
 key.plustic_toggle_tool.desc=更換工具模式
 
 # ENTITIES
 
-entity.plustic.BlindBandit.name=盲匪
-entity.BlindBandit.name=盲匪
 entity.plustic.SupremeLeader.name=NO.1
 entity.SupremeLeader.name=NO.1
 
